@@ -38,22 +38,22 @@ const Navbar = () => {
         {/* Desktop view Right */}
         <ul className="hidden md:flex gap-12 text-gray-700 font-medium">
           <li>
-            <Link to="./" className="hover:text-blue-500 transition-colors">Home</Link>
+            <Link to="/" className="hover:text-blue-500 transition-colors">Home</Link>
           </li>
           <li>
-            <Link to="./about" className="hover:text-blue-500 transition-colors">About Us</Link>
+            <Link to="/about" className="hover:text-blue-500 transition-colors">About Us</Link>
           </li>
           <li>
-            <Link to="./services" className="hover:text-blue-500 transition-colors">Services</Link>
+            <Link to="/services" className="hover:text-blue-500 transition-colors">Services</Link>
           </li>
           <li>
-            <Link to="./clients" className="hover:text-blue-500 transition-colors">Clients</Link>
+            <Link to="/clients" className="hover:text-blue-500 transition-colors">Clients</Link>
           </li>
           <li>
-            <Link to="./portfolio" className="hover:text-blue-500 transition-colors">Portfolio</Link>
+            <Link to="/portfolio" className="hover:text-blue-500 transition-colors">Portfolio</Link>
           </li>
           <li>
-            <Link to="./dummy" className="hover:text-blue-500 transition-colors">Dummy</Link>
+            <Link to="/dummy" className="hover:text-blue-500 transition-colors">Dummy</Link>
           </li>
         </ul>
       </nav>
@@ -63,22 +63,22 @@ const Navbar = () => {
         <div className="md:hidden">
           <ul className="bg-white text-gray-700 p-4">
             <li className="mb-3">
-              <Link to="./" className="block hover:text-blue-500 transition-colors">Home</Link>
+              <Link to="/" className="block hover:text-blue-500 transition-colors">Home</Link>
             </li>
             <li className="mb-3">
-              <Link to="./about" className="block hover:text-blue-500 transition-colors">About Us</Link>
+              <Link to="/about" className="block hover:text-blue-500 transition-colors">About Us</Link>
             </li>
             <li className="mb-3">
-              <Link to="./services" className="block hover:text-blue-500 transition-colors">Services</Link>
+              <Link to="/services" className="block hover:text-blue-500 transition-colors">Services</Link>
             </li>
             <li className="mb-3">
-              <Link to="./clients" className="block hover:text-blue-500 transition-colors">Clients</Link>
+              <Link to="/clients" className="block hover:text-blue-500 transition-colors">Clients</Link>
             </li>
             <li className="mb-3">
-              <Link to="./portfolio" className="block hover:text-blue-500 transition-colors">Portfolio</Link>
+              <Link to="/portfolio" className="block hover:text-blue-500 transition-colors">Portfolio</Link>
             </li>
             <li className="mb-3">
-              <Link to="./dummy" className="block hover:text-blue-500 transition-colors">Dummy</Link>
+              <Link to="/dummy" className="block hover:text-blue-500 transition-colors">Dummy</Link>
             </li>
           </ul>
         </div>
