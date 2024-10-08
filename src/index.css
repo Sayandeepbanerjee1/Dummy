@@ -5,6 +5,19 @@
 body {
   padding-top: 75px;
 }
+
+/* Hide scrollbars for Webkit (Chrome, Safari, etc.) */
+.portfolio-scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for other browsers */
+.portfolio-scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

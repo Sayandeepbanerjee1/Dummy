@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import ServicesSection from './components/Services.jsx';
 import About from './components/About.jsx';
+import Portfolio from './components/Portfolio.jsx';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Routes>
           <Route exact path ="/" element = {<Home />} />
           <Route path ="/about" element = {<About />} />
-          <Route path ="/services" element = {<ServicesSection/>} />
+          <Route path ="/services" element = {<ServicesSection />} />
+          <Route path ="/portfolio" element = {<Portfolio />} />
         </Routes>
       </div>
     </Router>
