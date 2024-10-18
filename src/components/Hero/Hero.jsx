@@ -5,7 +5,7 @@ import { Model } from './Model.jsx';
 
 const Hero = () => {
   return (
-    <section className="bg-gray-100">
+    <section className="">
       <div className="container mx-auto flex flex-col md:flex-row items-center px-6 md:px-0">
         {/* Left Column */}
         <div className="md:w-1/2 mb-6 md:mb-0 ml-5">

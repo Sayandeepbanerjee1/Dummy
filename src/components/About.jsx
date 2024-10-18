@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <section className="bg-gray-100 py-4">
+        <section className="py-4">
             <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-6 md:px-0">
                 <div className="md:w-1/2 h-[300px] flex justify-center items-center">
                     <img

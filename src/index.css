@@ -4,9 +4,11 @@
 
 body {
   padding-top: 75px;
+  background-color: rgb(231, 225, 225);
+  padding-top: 6rem;
 }
 
-/* Hide scrollbars for Webkit (Chrome, Safari, etc.) */
+/* Hide scrollbars for Webkit (Chrome, Safari etc.) */
 .portfolio-scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
