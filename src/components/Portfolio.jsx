@@ -49,8 +49,8 @@ const portfolio = () => {
   // )
   <div className="container mx-auto px-8 lg:px-16 py-12">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Portfolio</h2>
-      <div className="overflow-x-auto portfolio-scrollbar-hide"> {/* Enables horizontal scrolling */}
-        <div className="inline-flex gap-8"> {/* Cards in horizontal line */}
+      <div className="overflow-x-auto portfolio-scrollbar-hide">
+        <div className="inline-flex gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
